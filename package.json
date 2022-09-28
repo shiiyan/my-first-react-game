@@ -18,7 +18,26 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
+    "rules": {
+      "indent": [
+        "error",
+        2
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "quotes": [
+        "error",
+        "double"
+      ],
+      "eol-last": [
+        "error",
+        "always"
+      ]
+    },
     "extends": [
+      "eslint:recommended",
       "react-app",
       "react-app/jest"
     ]
