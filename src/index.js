@@ -85,7 +85,7 @@ class Game extends React.Component {
         : "Go to game start";
       
       return (
-        <li>
+        <li key={move}>
           <button>{desc}</button>
         </li>
       );
